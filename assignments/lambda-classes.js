@@ -93,6 +93,7 @@ const ben = new Student({
   location: "Hommieville",
   age: 27,
   favLanguage: "JavaScript",
+  previousBackground: "Digital Marketer",
   specialty: "Fixin'",
   catchPhrase: `Percision is key`
 });
@@ -102,6 +103,7 @@ const deku = new Student({
   location: "Japan",
   age: 15,
   favLanguage: "Pork Cutlet Bowl",
+  previousBackground: "Quirkless Student",
   specialty: "One For All Jr.",
   catchPhrase: `PLUS ULTRA`,
   favSubjects: ["Hero Powers", " Uraka", " Physical Training."]
@@ -113,7 +115,9 @@ const aizawa = new Projectmanagers({
   age: 35,
   favLanguage: "Korean BBQ",
   specialty: "Erasing Quirks",
-  catchPhrase: `Remember where you started`
+  catchPhrase: `Remember where you started`,
+  gradClassName: "Hosu Heros",
+  favInstructor: "Nemuri Kayama"
 });
 
 const allMight = new Projectmanagers({
@@ -122,7 +126,9 @@ const allMight = new Projectmanagers({
   age: 32,
   favLanguage: "Ramen",
   specialty: "One For All",
-  catchPhrase: `Everything is fine now, DETROITU SMAAASH`
+  catchPhrase: `Everything is fine now, DETROITU SMAAASH`,
+  gradClassName: "1000%",
+  favInstructor: "Cementoss"
 });
 
 fred.speak();
